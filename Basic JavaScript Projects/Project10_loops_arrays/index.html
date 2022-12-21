@@ -4,12 +4,23 @@
         <title>Project10_loops_arrays</title>
         <meta charset="UTF-8">
         <meta name="author" content="Jon">
-        <script src="JS/main.js"></script>
     </head>
     <body>
+        <!--Button to call function that counts from 1-10 -->
+        <p id="Counting_To_Ten"></p>
+        <button onclick="count_To_Ten()">Click here to start.</button>
 
-        <p id="Loop"></p>
-        <button onclick="Call_Loop()">Click here to execute the loop.</button>
-        
+        <!-- Button to call function that executes a loop-->
+        <p id="List_of_Instruments"></p>
+        <button onclick="for_Loop()">Click here to execute the loop.</button>
+        <!-- Button to call function that displays a sentence about a property of an object-->
+        <p id="Cat"></p>
+        <button onclick="cat_pics()">Click here!</button>
+        <!-- Button to call function that creates a constant object and displays a sentence about it-->
+        <p id="Constant"></p>
+        <button onclick="constant_function()">Click here!</button>
+        <!-- Button that displays a sentence about a variable-->
+        <p id="cat_Object" onload="cat.description()"></p>
+        <script src="JS/main.js"></script>
     </body>
 </html>
